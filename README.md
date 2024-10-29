@@ -6,6 +6,21 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
+## Explore the app features:
+
+### Routing
+The URL updates as you navigate between pages, and you can access the information on a given page by navigating to a URL with a page parameter.
+
+![routingdemo-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/f2864f38-02c8-459d-b5b2-43c9e1a48691)
+
+### Responsive design
+
+![Responsivedesigndemo-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/10eb499f-c27c-4b94-a7fe-519ec0ee2cca)
+
+### Data is cached to prevent expensive API calls 
+
+![Cacheddata-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/91b62041-8c99-41ac-b86e-1bf5f798822d)
+
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
