@@ -1,0 +1,31 @@
+.card {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 30px 60px;
+  max-width: 400px;
+  display: flex;
+  gap: 60px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.left-column, .right-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.left-column p,
+.right-column p {
+  margin: 4px 0;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+@media (max-width: 600px) {
+  .card {
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px 60px;
+  }
+}

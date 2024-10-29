@@ -1,0 +1,16 @@
+<div class="sample-list">
+  <app-sample-card
+    *ngFor="let sample of samples; index as i"
+    [item]="sample"
+    [i]="i"
+  ></app-sample-card>
+
+  <div class="navigation-buttons">
+    <button class="nav-button" [disabled]="currentPage === 1" (click)="goToPage(currentPage - 1)">
+      Previous
+    </button>
+    <button class="nav-button" [disabled]="isLastPage" (click)="goToPage(currentPage + 1)">
+      Next
+    </button>
+  </div>
+</div>
